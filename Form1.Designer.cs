@@ -149,7 +149,6 @@
             this.label_connection.Size = new System.Drawing.Size(174, 13);
             this.label_connection.TabIndex = 6;
             this.label_connection.Text = "Instrument Connection Check";
-            this.label_connection.Click += new System.EventHandler(this.label_connection_Click);
             // 
             // label__input_signal_set
             // 

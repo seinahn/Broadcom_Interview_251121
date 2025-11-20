@@ -7,7 +7,6 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
-
 namespace SG_SA_Sequence
 {
     public partial class Form1 : Form
@@ -303,6 +302,7 @@ namespace SG_SA_Sequence
                     saSession.WriteString("SENSE:FREQ:SPAN 300MHz");
                     saSession.WriteString("DISP:WIND:TRAC:Y:RLEV 20dBm");
                     saSession.WriteString("SENSE:BAND:RES 100kHz");
+                    saSession.WriteString("SENSE:BAND:VID 100kHz");
                     saSession.WriteString("SENSE:POW:RF:ATT 30");
                     saSession.WriteString($"DISP:WIND:TRAC:Y:RLEV:OFFS {saOffset}");
 
@@ -531,11 +531,6 @@ namespace SG_SA_Sequence
             }
             catch { }
             Application.Exit();
-        }
-
-        private void label_connection_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
