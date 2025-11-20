@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\seinahn\\OneDrive - Qualcomm\\Desktop\\Private\\Qualcomm\\RFFE_DC\\3. C#_Development\\SG_SA_Sequence\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B3A6F97-27E0-439D-A134-637C3B583404}|SG_SA_Sequence.csproj|c:\\users\\seinahn\\onedrive - qualcomm\\desktop\\private\\qualcomm\\rffe_dc\\3. c#_development\\sg_sa_sequence\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B3A6F97-27E0-439D-A134-637C3B583404}|SG_SA_Sequence.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B3A6F97-27E0-439D-A134-637C3B583404}|SG_SA_Sequence.csproj|C:\\Users\\seinahn\\OneDrive - Qualcomm\\Desktop\\Private\\Qualcomm\\RFFE_DC\\3. C#_Development\\SG_SA_Sequence\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5B3A6F97-27E0-439D-A134-637C3B583404}|SG_SA_Sequence.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B3A6F97-27E0-439D-A134-637C3B583404}|SG_SA_Sequence.csproj|c:\\users\\seinahn\\onedrive - qualcomm\\desktop\\private\\qualcomm\\rffe_dc\\3. c#_development\\sg_sa_sequence\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B3A6F97-27E0-439D-A134-637C3B583404}|SG_SA_Sequence.csproj|c:\\users\\seinahn\\onedrive - qualcomm\\desktop\\private\\qualcomm\\rffe_dc\\3. c#_development\\sg_sa_sequence\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B3A6F97-27E0-439D-A134-637C3B583404}|SG_SA_Sequence.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B3A6F97-27E0-439D-A134-637C3B583404}|SG_SA_Sequence.csproj|C:\\Users\\seinahn\\OneDrive - Qualcomm\\Desktop\\Private\\Qualcomm\\RFFE_DC\\3. C#_Development\\SG_SA_Sequence\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B3A6F97-27E0-439D-A134-637C3B583404}|SG_SA_Sequence.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,20 +43,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\seinahn\\OneDrive - Qualcomm\\Desktop\\Private\\Qualcomm\\RFFE_DC\\3. C#_Development\\SG_SA_Sequence\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\seinahn\\OneDrive - Qualcomm\\Desktop\\Private\\Qualcomm\\RFFE_DC\\3. C#_Development\\SG_SA_Sequence\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAiwBYCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T14:11:29.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\seinahn\\OneDrive - Qualcomm\\Desktop\\Private\\Qualcomm\\RFFE_DC\\3. C#_Development\\SG_SA_Sequence\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

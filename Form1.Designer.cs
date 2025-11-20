@@ -63,16 +63,6 @@
             this.label_freq5 = new System.Windows.Forms.Label();
             this.button_Measurement = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label_Result = new System.Windows.Forms.Label();
-            this.button_Save = new System.Windows.Forms.Button();
-            this.button_Close = new System.Windows.Forms.Button();
-            this.button_Reset = new System.Windows.Forms.Button();
-            this.button_Freq1_Set = new System.Windows.Forms.Button();
-            this.button_Freq2_Set = new System.Windows.Forms.Button();
-            this.button_Freq3_Set = new System.Windows.Forms.Button();
-            this.button_Freq4_Set = new System.Windows.Forms.Button();
-            this.button_Freq5_Set = new System.Windows.Forms.Button();
-            this.textBox_save_location = new System.Windows.Forms.TextBox();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -83,6 +73,16 @@
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label_Result = new System.Windows.Forms.Label();
+            this.button_Save = new System.Windows.Forms.Button();
+            this.button_Close = new System.Windows.Forms.Button();
+            this.button_Reset = new System.Windows.Forms.Button();
+            this.button_Freq1_Set = new System.Windows.Forms.Button();
+            this.button_Freq2_Set = new System.Windows.Forms.Button();
+            this.button_Freq3_Set = new System.Windows.Forms.Button();
+            this.button_Freq4_Set = new System.Windows.Forms.Button();
+            this.button_Freq5_Set = new System.Windows.Forms.Button();
+            this.textBox_save_location = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,18 +143,21 @@
             // label_connection
             // 
             this.label_connection.AutoSize = true;
+            this.label_connection.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_connection.Location = new System.Drawing.Point(20, 23);
             this.label_connection.Name = "label_connection";
-            this.label_connection.Size = new System.Drawing.Size(147, 13);
+            this.label_connection.Size = new System.Drawing.Size(174, 13);
             this.label_connection.TabIndex = 6;
             this.label_connection.Text = "Instrument Connection Check";
+            this.label_connection.Click += new System.EventHandler(this.label_connection_Click);
             // 
             // label__input_signal_set
             // 
             this.label__input_signal_set.AutoSize = true;
+            this.label__input_signal_set.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label__input_signal_set.Location = new System.Drawing.Point(20, 71);
             this.label__input_signal_set.Name = "label__input_signal_set";
-            this.label__input_signal_set.Size = new System.Drawing.Size(111, 13);
+            this.label__input_signal_set.Size = new System.Drawing.Size(133, 13);
             this.label__input_signal_set.TabIndex = 7;
             this.label__input_signal_set.Text = "Set Input Signal in SG";
             // 
@@ -392,12 +395,70 @@
             this.dataGridView1.Size = new System.Drawing.Size(860, 282);
             this.dataGridView1.TabIndex = 34;
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Test Freq[MHz]";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 80;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Measured Power[dBm]";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 70;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "2 x Freq[MHz]";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Measured Power[dBm]";
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 70;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "3 x Freq[MHz]";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Measured Power[dBm]";
+            this.Column6.Name = "Column6";
+            this.Column6.Width = 70;
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "4 x Freq[MHz]";
+            this.Column7.Name = "Column7";
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "Measured Power[dBm]";
+            this.Column8.Name = "Column8";
+            this.Column8.Width = 70;
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "Offset[dB]";
+            this.Column9.Name = "Column9";
+            this.Column9.Width = 70;
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "Noise Floor[dBm]";
+            this.Column10.Name = "Column10";
+            this.Column10.Width = 80;
+            // 
             // label_Result
             // 
             this.label_Result.AutoSize = true;
+            this.label_Result.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Result.Location = new System.Drawing.Point(20, 266);
             this.label_Result.Name = "label_Result";
-            this.label_Result.Size = new System.Drawing.Size(104, 13);
+            this.label_Result.Size = new System.Drawing.Size(122, 13);
             this.label_Result.TabIndex = 35;
             this.label_Result.Text = "Measurement Result";
             // 
@@ -488,63 +549,6 @@
             this.textBox_save_location.Size = new System.Drawing.Size(215, 20);
             this.textBox_save_location.TabIndex = 44;
             this.textBox_save_location.Text = "C:\\test";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Test Freq[MHz]";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 80;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Measured Power[dBm]";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 70;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "2 x Freq[MHz]";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Measured Power[dBm]";
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 70;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "3 x Freq[MHz]";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Measured Power[dBm]";
-            this.Column6.Name = "Column6";
-            this.Column6.Width = 70;
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "4 x Freq[MHz]";
-            this.Column7.Name = "Column7";
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "Measured Power[dBm]";
-            this.Column8.Name = "Column8";
-            this.Column8.Width = 70;
-            // 
-            // Column9
-            // 
-            this.Column9.HeaderText = "Offset[dB]";
-            this.Column9.Name = "Column9";
-            this.Column9.Width = 70;
-            // 
-            // Column10
-            // 
-            this.Column10.HeaderText = "Noise Floor[dBm]";
-            this.Column10.Name = "Column10";
-            this.Column10.Width = 80;
             // 
             // Form1
             // 

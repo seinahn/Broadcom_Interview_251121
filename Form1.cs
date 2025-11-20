@@ -532,5 +532,10 @@ namespace SG_SA_Sequence
             catch { }
             Application.Exit();
         }
+
+        private void label_connection_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
